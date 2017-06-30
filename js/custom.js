@@ -7,10 +7,6 @@ $(window).on('load', function(){
 });
 });
 
-$(window).scroll(function() {
-  $("#home").hide(1000);
-  $("#skills").fadeIn(1000);
-});
 
 var skillsDiv = jQuery('#skills');
 
@@ -22,7 +18,7 @@ jQuery(window).on('scroll', function() {
     jQuery('.skillbar').each(function() {
       jQuery(this).find('.skillbar-bar').animate({
         width: jQuery(this).attr('data-percent')
-      }, 6000);
+      }, 4000);
     });
   }
 });
