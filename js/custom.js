@@ -3,7 +3,7 @@
   -----------------------------------------------*/
   $(document).ready(function() {
 $(window).on('load', function(){
-    $('.preloader').fadeOut(1000); // set duration in brackets    
+    $('.preloader').fadeOut(500); // set duration in brackets    
 });
 });
 
